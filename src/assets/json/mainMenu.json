@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Perfil",
+        "icon": "fa-user",
+        "color": "text-gray-400"
+    },
+    {
+        "title": "Configuraciones",
+        "icon": "fa-cogs",
+        "color": "text-gray-400"
+    },
+    {
+        "title": "Registro de Actividad",
+        "icon": "fa-list",
+        "color": "text-gray-400"
+    },
+    {
+        "title": "Cerrar Sesión",
+        "icon": "fa-sign-out-alt",
+        "color": "text-gray-400"
+    },
+    {
+        "title": "Item7",
+        "icon": "fa-sign-out-alt",
+        "color": "text-gray-400"
+    },
+    {
+        "title": "Item8",
+        "icon": "fa-sign-out-alt",
+        "color": "text-gray-400"
+    },
+    {
+        "title": "Test",
+        "icon": "fa-sign-out-alt",
+        "color": "text-dark-400"
+    }
+]
