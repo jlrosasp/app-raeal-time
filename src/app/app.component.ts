@@ -1,6 +1,11 @@
+// Angular Imports
 import { Component, OnInit } from '@angular/core';
-import { MainTopBarMenuService } from './services/core/main-top-bar-menu.service';
 
+// Services Imports
+import { MainTopBarMenuService } from './services/core/main-top-bar-menu.service';
+import { SidebarService } from './services/core/sidebar.service';
+
+// JQuery Variables
 declare var App:any;
 @Component({
   selector: 'app-root',
@@ -9,7 +14,7 @@ declare var App:any;
 })
 export class AppComponent implements OnInit {
   
-  constructor(private menuSvc: MainTopBarMenuService) {
+  constructor(private menuSvc: MainTopBarMenuService, private sidebarSvc: SidebarService) {
     
   }
 
@@ -18,6 +23,7 @@ export class AppComponent implements OnInit {
   periodo: number = 2020;
 
   menuItems:any[] = [];
+  sidebarItems: any[] = [];
 
   ngOnInit() {
     // Load SideBar Script
@@ -31,6 +37,12 @@ export class AppComponent implements OnInit {
       //Async
       this.menuItems = data;
     });
+
+    this.sidebarSvc.getItemsSideBar().subscribe((data: any) => {
+      //Async
+      this.sidebarItems = data;
+    });
+
   }
 
   listenChildMenuEvent(eventArgs: any) {

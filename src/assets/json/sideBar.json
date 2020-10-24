@@ -1,0 +1,82 @@
+[
+    {
+        "section": "",
+        "title": "Dashboard",
+        "icon": "fa-tachometer-alt",
+        "items": []
+    },
+    {
+        "section": "Interface",
+        "title": "Components",
+        "icon": "fa-cog",
+        "items": [
+            {
+                "subTitle": "Custom Components",
+                "subItems": [
+                    {
+                        "title": "Buttons",
+                        "icon": "",
+                        "route": ""
+                    },
+                    {
+                        "title": "Cards",
+                        "icon": "",
+                        "route": ""
+                    }
+                ]
+            },
+            {
+                "subTitle": "Facturas",
+                "subItems": [
+                    {
+                        "title": "Busqueda",
+                        "icon": "",
+                        "route": ""
+                    },
+                    {
+                        "title": "Cancelación",
+                        "icon": "",
+                        "route": ""
+                    }
+                ]
+            }
+        ] 
+    },
+    {
+        "section": "Components",
+        "title": "Login",
+        "icon": "fa-user",
+        "items": [
+            {
+                "subTitle": "Recovery Password",
+                "subItems": [
+                    {
+                        "title": "Reset",
+                        "icon": "",
+                        "route": ""
+                    },
+                    {
+                        "title": "Change",
+                        "icon": "",
+                        "route": ""
+                    }
+                ]
+            },
+            {
+                "subTitle": "Sing Up",
+                "subItems": [
+                    {
+                        "title": "OAuth",
+                        "icon": "",
+                        "route": ""
+                    },
+                    {
+                        "title": "Password",
+                        "icon": "",
+                        "route": ""
+                    }
+                ]
+            }
+        ] 
+    }
+]
