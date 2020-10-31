@@ -28,7 +28,7 @@
         
         <div *ngFor="let subitem of item.items" class="bg-white py-2 collapse-inner rounded">
           <h6 class="collapse-header">{{subitem.subTitle}}</h6>
-          <a *ngFor="let child of subitem.subItems" class="collapse-item" href="buttons.html">{{child.title}}</a>
+          <a *ngFor="let child of subitem.subItems" class="collapse-item" [routerLink]="child.route" routerLinkActive="active">{{child.title}}</a>
         </div>
 
       </div>

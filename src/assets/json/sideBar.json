@@ -3,6 +3,7 @@
         "section": "",
         "title": "Dashboard",
         "icon": "fa-tachometer-alt",
+        "route": [],
         "items": []
     },
     {
@@ -16,12 +17,12 @@
                     {
                         "title": "Buttons",
                         "icon": "",
-                        "route": ""
+                        "route": ["components/buttons"]
                     },
                     {
                         "title": "Cards",
                         "icon": "",
-                        "route": ""
+                        "route": ["components/cards"]
                     }
                 ]
             },
@@ -31,12 +32,12 @@
                     {
                         "title": "Busqueda",
                         "icon": "",
-                        "route": ""
+                        "route": ["components/busqueda"]
                     },
                     {
                         "title": "Cancelación",
                         "icon": "",
-                        "route": ""
+                        "route": ["components/cancelacion"]
                     }
                 ]
             }
